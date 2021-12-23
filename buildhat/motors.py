@@ -13,7 +13,7 @@ class PassiveMotor(Device):
     :param port: Port of device
     :raises DeviceInvalid: Occurs if there is no passive motor attached to port
     """
-    MOTOR_SET = set([2])
+    MOTOR_SET = set([1, 2])
 
     def __init__(self, port):
         super().__init__(port)
