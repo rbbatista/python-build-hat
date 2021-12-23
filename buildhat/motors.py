@@ -67,7 +67,7 @@ class Motor(Device):
     :raises DeviceInvalid: Occurs if there is no motor attached to port
     """
     # See hub-python-module/drivers/m_sched_shortcake.h
-    MOTOR_SET = set([38, 46, 47, 48, 49, 65, 75, 76])
+    MOTOR_SET = set([1, 38, 46, 47, 48, 49, 65, 75, 76])
 
     def __init__(self, port):
         super().__init__(port)
